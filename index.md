@@ -3,9 +3,7 @@ layout: default
 title: Privacy Policy — PhimCa (Local Media Bridge)
 ---
 
-# Privacy Policy for Local Media Bridge (PhimCa)
-
-**Effective Date:** June 1, 2026
+**Effective Date:** June 3, 2026
 
 Your privacy is important to us. This Privacy Policy explains how Local Media Bridge ("the App", "PhimCa") collects, uses, and protects your information. The App is designed to prioritize on-device processing and minimize off-device data transmission.
 
@@ -52,6 +50,11 @@ If enabled in Settings, the App may write diagnostic logs or crash reports to yo
 - Your local media files, playlists, and cover art remain on your device.
 - Any URLs you type or paste into the in-app WebStream browser are processed locally. The App does not track, collect, or transmit your browsing history.
 
+### e. Screen Mirror Audio Capture (`RECORD_AUDIO`)
+When you use the optional "Mirror Screen" feature, the App captures **system playback audio** (music, video, and game audio) so it can be streamed alongside the screen video to the DLNA renderer (TV or projector) you choose on your LAN.
+- The **microphone is never opened.** Android requires the `RECORD_AUDIO` permission for system-playback capture even though no microphone audio is ever accessed. Capture is filtered to media, game, and unknown audio only — voice calls, voice assistants, notifications, and alarms are excluded by design.
+- This audio is **never recorded, stored, or transmitted off-device.** It is streamed only to the DLNA renderer you select on your local Wi-Fi network, and only for the duration of the mirror session.
+
 ---
 
 ## 3. Data Deletion Rights
@@ -62,13 +65,19 @@ To exercise your right to delete data:
 - **Uninstalling the App** will clear all local data (including bookmarks and settings) and effectively orphan the anonymous purchase record on RevenueCat's servers, permanently disassociating it from your device.
 - **Proactive server-side deletion:** If you would like the orphaned RevenueCat record proactively deleted from their servers, email us at epicmediadev@gmail.com with your request. We will forward your anonymous App User ID to RevenueCat's deletion endpoint on your behalf.
 
+If you are located in the EU/EEA or the UK, you may exercise your rights under the GDPR — including access, deletion, portability, and the right to object — using the contact email above. We will respond within the timeframes required by applicable law.
+
 ---
 
-## 4. Changes to This Privacy Policy
+## 4. Children's Privacy
+
+This App is not directed at children under 13 (or the minimum age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided information through the App, please contact us at the email below and we will take steps to address it.
+
+## 5. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. The updated version will be indicated by an updated "Effective Date."
 
-## 5. Contact Us
+## 6. Contact Us
 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 

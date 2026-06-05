@@ -3,7 +3,9 @@ layout: default
 title: Privacy Policy — PhimCa (Local Media Bridge)
 ---
 
-**Effective Date:** June 3, 2026
+# Privacy Policy for Local Media Bridge (PhimCa)
+
+**Effective Date:** June 5, 2026
 
 Your privacy is important to us. This Privacy Policy explains how Local Media Bridge ("the App", "PhimCa") collects, uses, and protects your information. The App is designed to prioritize on-device processing and minimize off-device data transmission.
 
@@ -21,7 +23,7 @@ The App integrates **RevenueCat** to manage in-app purchases (the one-time unloc
 
 **What RevenueCat Does NOT Collect:**
 - The App does not collect or transmit your name, email address, phone number, or payment method. All payment processing is handled exclusively and securely by Google Play Billing.
-- RevenueCat does not have access to your media files, SMB credentials, browsing history, or any other app data.
+- RevenueCat does not have access to your media files, SMB credentials, or any other app data.
 
 RevenueCat acts as a third-party data processor. For more details on how they handle data, please refer to the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
 
@@ -46,9 +48,8 @@ If enabled in Settings, the App may write diagnostic logs or crash reports to yo
 - These logs are generated for your personal troubleshooting use. 
 - They are **never automatically transmitted** to the developer or any third-party analytics service. You maintain full control over whether to email or share these logs using the system's standard share menu.
 
-### d. Media and Browsing Data
+### d. Media Data
 - Your local media files, playlists, and cover art remain on your device.
-- Any URLs you type or paste into the in-app WebStream browser are processed locally. The App does not track, collect, or transmit your browsing history.
 
 ### e. Screen Mirror Audio Capture (`RECORD_AUDIO`)
 When you use the optional "Mirror Screen" feature, the App captures **system playback audio** (music, video, and game audio) so it can be streamed alongside the screen video to the DLNA renderer (TV or projector) you choose on your LAN.
